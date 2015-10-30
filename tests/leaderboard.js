@@ -3,7 +3,7 @@ module.exports = {
     browser
       .url("http://localhost:3000/")
       .waitForElementVisible('body', 1000)
-      .waitForElementVisible('div.message', 5000)
+      //.waitForElementVisible('div.message', 5000)
       // this would fail, if you wanted to test for error cases
       //.waitForElementVisible('#doesNotExist-FAIL', 125)
       .waitForElementVisible('ol li.player', 1000)
